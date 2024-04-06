@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  .hero {
+    background: url('assets/Tailoring_Shop.jpg') center/cover;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+  }
+  
+  .hero-content p {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+  }
+  
+  
+  .content {
+    background: bisque;
+    padding: 50px 0;
+  }
+  
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: calc(50% - 40px);
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  .card p {
+    padding: 0 10px 10px 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) { 
+    .card {
+        width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 576px) { 
+    .card {
+        width: calc(100% - 20px); 
+        margin: 10px; 
+    }
+  }
+  
+  .video {
+    padding: 50px 0;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    margin-bottom: 20px;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    background: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+    background: #fff;
+  }
+  
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .video-wrapper{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    }
+    
+    .video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .video-wrapper {
+      border-radius: 10px;
+      overflow: hidden;
+      z-index: 1;
+    }
+    
+    .video-wrapper {
+      border: 5px solid bisque;
+    }
+  
+    .accordion {
+      margin-top: 20px;
+  }
+  
+  .details {
+      margin-bottom: 10px;
+  }
+  
+  summary {
+      cursor: pointer;
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  summary:hover {
+      background-color: #ddd;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  ul li {
+      padding: 5px 0;
+  }
+  
+  details[open] summary {
+      background-color: #ddd;
+  }
+  
+  details[open] ul {
+      animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
